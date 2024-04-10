@@ -2,8 +2,8 @@
 
 Two examples where I attempted to 
 **reproduce results from publications analysing cardiotocograph data**:
-* One with no code available, Daydulo et al. 2023 [[GitHub respository]](https://github.com/birth-outcomes/ctg_exploratory)
-* One with MATLAB code available, Boudet et al. 2020 [[GitHub repository]](https://github.com/birth-outcomes/fhrma_python)
+* One with **no code available**, Daydulo et al. 2023 [[GitHub respository]](https://github.com/birth-outcomes/ctg_exploratory)
+* One with **MATLAB code available**, Boudet et al. 2020 [[GitHub repository]](https://github.com/birth-outcomes/fhrma_python)
 
 ## Context
 
