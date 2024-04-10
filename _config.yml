@@ -1,0 +1,24 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: STARS interview
+author: Amy Heather
+email: a.heather2@exeter.ac.uk
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: force
+
+# Only build files specified in table of contents file
+only_build_toc_files: true
+
+repository:
+  url: https://github.com/amyheather/stars_interview
+  branch: main
+
+# Add GitHub buttons to your book
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  use_issues_button: true
+  use_repository_button: true
