@@ -1,6 +1,9 @@
 # Reproduction of an existing publication
 
-**Example: Reproducing results from publications analysing cardiotocograph data** [[GitHub respository]](https://github.com/birth-outcomes/ctg_exploratory)
+Two examples where I attempted to 
+**reproduce results from publications analysing cardiotocograph data**:
+* One with no code available, Daydulo et al. 2023 [[GitHub respository]](https://github.com/birth-outcomes/ctg_exploratory)
+* One with MATLAB code available, Boudet et al. 2020 [[GitHub repository]](https://github.com/birth-outcomes/fhrma_python)
 
 ## Context
 
@@ -30,9 +33,7 @@ There are several different ways to process this type of data before using it in
 
 ## Reproducing Daydulo et al. 2023
 
-This paper analysed an **open dataset of CTG data** and shared their **MATLAB code**.
-
-I converted from **MATLAB to Python**, and attempted to **recreate three key sections** of the paper...
+This paper analysed an **open dataset of CTG data** using MATLAB but with **no code shared**. I attempted to **recreate three key sections** of the paper...
 
 ### (1) Data cleaning and augmentation
 
@@ -71,12 +72,20 @@ My replication:
 ![My ResNet50](img/daydulo_resnet_1.png)
 ![My ResNet50](img/daydulo_resnet_2.png)
 
-## Comments
+**Comments:**
 
-Not a perfect paper (flawed augmentation, and suspicious accuracy and loss curves).
+* Not a perfect paper (flawed augmentation, and suspicious accuracy and loss curves).
+* Was able to overfit model but couldn't improve.
+* This was exploratory work that was part of helping us understand concepts and potential methods we could use.
+* Differs to formal reproducibility study, as planned for STARS (hence, no timings, etc).
 
-Was able to overfit model but couldn't improve.
+## Replicating elements from MATLAB FHRMA package
 
-This was exploratory work that was part of helping us understand concepts and potential methods we could use.
+Boudet et al. 2020 produced a publication implementing various published methods for identifying features in the fetal heart rate, like the baseline heart rate, accelerations and decelerations. They shared this as a **MATLAB package** with accompanying data:
 
-Differs to formal reproducibility study, as planned for STARS (hence, no timings, etc).
+![FHRMA package page](img/fhrma_page.png)
+
+I worked through a few examples of methods, **converting MATLAB to Python** and attempting to get the same results, including:
+* Importing and cleaning the data
+* A method for baseline heart rate
+* A method for baseline heart rate, accelerations and decelerations
