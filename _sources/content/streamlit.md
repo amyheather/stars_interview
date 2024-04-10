@@ -2,7 +2,9 @@
 
 This page shares an example of work where I have used Python packages and Streamlit.
 
-> ⭐ **Relevance to STARS:** STARS WP1 includes restructuring steps into reproducible software package. May also wish to use streamlit if want web app that can be used to work with model.
+> ⭐ **Relevant experience to STARS:**
+> * **Python packages** (WP1, restructuring into reproducible software package)
+> * **Streamlit** (sharing a model using a web app)
 
 ## Context
 

@@ -1,7 +1,9 @@
 # Reproduction of an existing publication
 
-Two examples where I attempted to 
-**reproduce results from publications analysing cardiotocograph data**:
+> ⭐ **Relevant experience to STARS:** Reproducing existing publications with varying languages or code availability.
+
+
+This page shares some examples of reproducing work from existing publications analysing cardiotocograph data.
 * One with **no code available**, Daydulo et al. 2023 [[GitHub respository]](https://github.com/birth-outcomes/ctg_exploratory)
 * One with **MATLAB code available**, Boudet et al. 2020 [[GitHub repository]](https://github.com/birth-outcomes/fhrma_python)
 
@@ -17,11 +19,18 @@ CTG is a continuous recording of the **fetal heart rate** and **maternal uterine
 * **Toco:** Uterine contractions
 * **Graphy:** Drawing representing recording
 
-![CTG example](img/ctg.jpg 'CTG')
-*CTG image from [source](https://upload.wikimedia.org/wikipedia/commons/b/b6/Cardiotocography.jpg).*
+```{image} img/ctg.jpg
+:alt: CTG example
+:class: bg-primary mb-1
+:width: 400px
+:align: center
+```
+
+<p style="text-align:center;"><i>CTG image from <a href="https://upload.wikimedia.org/wikipedia/commons/b/b6/Cardiotocography.jpg">[source]</a></i>.</p>
 
 ![CTG output example](img/ctg_output.jpg 'CTG output')
-*CTG output image from [source](https://commons.wikimedia.org/wiki/File:CTG_Output.jpg#/media/File:CTG_Output.jpg).*
+
+<p style="text-align:center;"><i>CTG output image from <a href="https://commons.wikimedia.org/wiki/File:CTG_Output.jpg#/media/File:CTG_Output.jpg">[source]</a></i>.</p>
 
 A combination of **abnormalities** in the CTG indicate an increased likelihood of fetal distress - these include:
 * **Baseline fetal heart rate outside normal range** (110-160bpm)
@@ -89,3 +98,9 @@ I worked through a few examples of methods, **converting MATLAB to Python** and 
 * Importing and cleaning the data
 * A method for baseline heart rate
 * A method for baseline heart rate, accelerations and decelerations
+
+(No pretty pictures to share for this!)
+
+**Comments:**
+* Required alot of attention to detail - particularly as translating between languages
+* Again, exploratory work that helped provide us with a few examples, which are methods you could use to convert the time series data into a single parameter that could easily add to a model

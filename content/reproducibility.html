@@ -181,6 +181,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Reproduction of an existing publication</a></li>
 <li class="toctree-l1"><a class="reference internal" href="streamlit.html">Streamlit and Python Packages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="des.html">Discrete-event simulation (DES) models</a></li>
 </ul>
 
     </div>
@@ -398,8 +399,10 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="reproduction-of-an-existing-publication">
 <h1>Reproduction of an existing publication<a class="headerlink" href="#reproduction-of-an-existing-publication" title="Link to this heading">#</a></h1>
-<p>Two examples where I attempted to
-<strong>reproduce results from publications analysing cardiotocograph data</strong>:</p>
+<blockquote>
+<div><p>⭐ <strong>Relevant experience to STARS:</strong> Reproducing existing publications with varying languages or code availability.</p>
+</div></blockquote>
+<p>This page shares some examples of reproducing work from existing publications analysing cardiotocograph data.</p>
 <ul class="simple">
 <li><p>One with <strong>no code available</strong>, Daydulo et al. 2023 <a class="reference external" href="https://github.com/birth-outcomes/ctg_exploratory">[GitHub respository]</a></p></li>
 <li><p>One with <strong>MATLAB code available</strong>, Boudet et al. 2020 <a class="reference external" href="https://github.com/birth-outcomes/fhrma_python">[GitHub repository]</a></p></li>
@@ -419,10 +422,10 @@ document.write(`
 <li><p><strong>Toco:</strong> Uterine contractions</p></li>
 <li><p><strong>Graphy:</strong> Drawing representing recording</p></li>
 </ul>
-<p><img alt="CTG example" src="../_images/ctg.jpg" />
-<em>CTG image from <a class="reference external" href="https://upload.wikimedia.org/wikipedia/commons/b/b6/Cardiotocography.jpg">source</a>.</em></p>
-<p><img alt="CTG output example" src="../_images/ctg_output.jpg" />
-<em>CTG output image from <a class="reference external" href="https://commons.wikimedia.org/wiki/File:CTG_Output.jpg#/media/File:CTG_Output.jpg">source</a>.</em></p>
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/ctg.jpg"><img alt="CTG example" class="bg-primary mb-1 align-center" src="../_images/ctg.jpg" style="width: 400px;" /></a>
+<p style="text-align:center;"><i>CTG image from <a href="https://upload.wikimedia.org/wikipedia/commons/b/b6/Cardiotocography.jpg">[source]</a></i>.</p>
+<p><img alt="CTG output example" src="../_images/ctg_output.jpg" /></p>
+<p style="text-align:center;"><i>CTG output image from <a href="https://commons.wikimedia.org/wiki/File:CTG_Output.jpg#/media/File:CTG_Output.jpg">[source]</a></i>.</p>
 <p>A combination of <strong>abnormalities</strong> in the CTG indicate an increased likelihood of fetal distress - these include:</p>
 <ul class="simple">
 <li><p><strong>Baseline fetal heart rate outside normal range</strong> (110-160bpm)</p></li>
@@ -477,6 +480,12 @@ document.write(`
 <li><p>Importing and cleaning the data</p></li>
 <li><p>A method for baseline heart rate</p></li>
 <li><p>A method for baseline heart rate, accelerations and decelerations</p></li>
+</ul>
+<p>(No pretty pictures to share for this!)</p>
+<p><strong>Comments:</strong></p>
+<ul class="simple">
+<li><p>Required alot of attention to detail - particularly as translating between languages</p></li>
+<li><p>Again, exploratory work that helped provide us with a few examples, which are methods you could use to convert the time series data into a single parameter that could easily add to a model</p></li>
 </ul>
 </section>
 </section>
