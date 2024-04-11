@@ -1,8 +1,8 @@
 # Discrete-event simulation (DES) models
 
-> ⭐ **Relevance to STARS:**
-> * DES models.
-> * Producing R packages.
+> ⭐ **Relevant experience to STARS:**
+> * **DES models** (some experience working on code for DES model)
+> * **R packages** (WP1, restructuring into reproducible software package)
 
 ## Example: Contributions on IPACS
 
